@@ -1,42 +1,68 @@
+body {
+  background-color: lightgray;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
-  padding: 2em;
+  background-color: aliceblue;
+  margin: 30px;
+  padding: 15px;
+  width: 25%;
+  border: 2px solid rgb(255, 162, 0);
+  border-radius: 15px;
 }
 
-.read-the-docs {
-  color: #888;
+h3 {
+  text-align: left;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: calc(4/3);
+}
+
+.tagCont {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  width: 25%;
+  margin: 3px;
+  padding: 3px;
+}
+
+/* TAGS COLOR */
+.Pane {
+  background-color: orange;
+}
+
+.Dolce {
+  background-color: lightblue;
+}
+
+.Pasta {
+  background-color: yellow;
+}
+
+.Gnam {
+  background-color: blue;
+}
+
+
+
+.FooterComp {
+  background-color: rgb(32, 32, 32);
 }
