@@ -3,9 +3,7 @@ import dessert from "../data/post"
 function CardComp() {
 
     const tag = dessert.map((element) => {
-        for (let i = 0; i < 5; i++) {
-            return <p className={`tag + ${element.tags[i]}`}>{element.tags[i]}</p>
-        }
+        return <p className={`tag + ${element.tags[element.id - 1]}`}>{element.tags[element.id - 1]}</p>
     })
 
     const dolce = dessert.map((element) => {
